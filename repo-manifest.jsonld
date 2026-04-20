@@ -2819,7 +2819,7 @@
       "git:hexsha": "21fcdbb8f2bb3820d3309df8e399c6deced12b42",
       "repolex:parseStatus": "parsed",
       "git:tagName": "v5.100.2",
-      "repolex:parsedAt": "2026-04-20T18:59:42.494967+00:00"
+      "repolex:parsedAt": "2026-04-20T19:50:42.688937+00:00"
     },
     {
       "@id": "https://repolex.ai/r/webpack/webpack/commit/5b87bedaf418b3cfa713d520bb70191098943917",
