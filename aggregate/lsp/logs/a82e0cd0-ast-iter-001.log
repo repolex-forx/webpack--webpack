@@ -1,0 +1,7 @@
+[2026-04-22T10:13:06Z] === AST ITERATION 1 START | repo=webpack/webpack sha=a82e0cd0 ===
+[2026-04-22T10:13:06Z] [iter=1] PHASE START: ast repo=webpack/webpack sha=a82e0cd0
+[2026-04-22T10:13:06Z] [iter=1] Building AST aggregate chunks
+[2026-04-22T10:23:29Z] [iter=1] AST chunks built count=2 triples=7267077
+[2026-04-22T10:23:29Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/a82e0cd00e26d8452295f0d680417e4656a6d7cc/.complete
+[2026-04-22T10:23:29Z] [iter=1] PHASE END: ast elapsed_s=622 elapsed_min=10.4
+[2026-04-22T10:23:29Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
