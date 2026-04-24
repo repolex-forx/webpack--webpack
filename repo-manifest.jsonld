@@ -3709,8 +3709,9 @@
     {
       "@id": "https://repolex.ai/r/webpack/webpack/commit/e51f8347026588c90f9bd91681597e97f24f40c9",
       "git:hexsha": "e51f8347026588c90f9bd91681597e97f24f40c9",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v5.78.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v5.78.0",
+      "repolex:parsedAt": "2026-04-24T05:18:47.337769+00:00"
     },
     {
       "@id": "https://repolex.ai/r/webpack/webpack/commit/ecdcc1a1d02a3097acb9ebc0896365ae1f4d25e2",
