@@ -19368,7 +19368,9 @@
           "source": "lsp",
           "install_path": "/tmp/source/examples/scope-hoisting/node_modules/d.js"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/d49b49ddebc6c06703e19ff6391915d2b09b0f2b/chunk-001.nq.gz",
+      "dep": "dep/d49b49ddebc6c06703e19ff6391915d2b09b0f2b.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
