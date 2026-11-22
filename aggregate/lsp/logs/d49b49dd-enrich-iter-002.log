@@ -1,0 +1,115 @@
+[2026-11-21T23:18:02Z] === ENRICH ITERATION 2 START | repo=webpack/webpack sha=d49b49dd ===
+[2026-11-21T23:18:02Z] [iter=2] PHASE START: enrich repo=webpack/webpack sha=d49b49dd runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d49b49dd-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d49b49ddebc6c06703e19ff6391915d2b09b0f2b.nq.gz
+[2026-11-21T23:18:57Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=81 MB
+[2026-11-21T23:19:50Z] [iter=2] AST store loaded triples=4273028 load_secs=52 mem_mb=921 MB
+[2026-11-21T23:19:50Z] [iter=2] Step 2: Finding LSP targets mem_mb=921 MB
+[2026-11-21T23:19:58Z] [iter=2] LSP targets found call_sites=40898 imports=1347 extends=260 implements=0 secs=8
+[2026-11-21T23:20:01Z] [iter=2] Loaded checkpoint partial graph triples=76829
+[2026-11-21T23:20:07Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=921 MB
+[2026-11-21T23:20:26Z] [iter=2] Position index built positions=291310 nodes_with_types=340855 secs=19 mem_mb=921 MB
+[2026-11-21T23:20:26Z] [iter=2] Step 3: Starting LSP resolution mem_mb=921 MB already_completed_types=[] already_completed_files=367
+[2026-11-21T23:20:26Z] [iter=2] Resolving target type target_type=call_site count=40898
+[2026-11-21T23:20:27Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=0 resolved=0 errors=0 current=lib/dependencies/UnsupportedDependency.js
+[2026-11-21T23:21:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=4 resolved=43 errors=0 current=test/configCases/source-map/exclude-modules-source-map/index.js
+[2026-11-21T23:21:58Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.9 files_done=6 resolved=84 errors=0 current=test/hotCases/invalidate/conditional-accept/module2.js
+[2026-11-21T23:23:05Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=12 resolved=144 errors=0 current=test/statsCases/preset-minimal/index.js
+[2026-11-21T23:25:19Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.3 files_done=15 resolved=224 errors=0 current=lib/dependencies/ImportMetaPlugin.js
+[2026-11-21T23:25:59Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=16 resolved=255 errors=0 current=test/hotCases/recover/recover-after-error/index.js
+[2026-11-21T23:27:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=9.3 files_done=20 resolved=317 errors=0 current=test/cases/cjs-tree-shaking/transpiled/typescript-reexport.js
+[2026-11-21T23:28:28Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=10.4 files_done=23 resolved=371 errors=0 current=test/cases/parsing/issue-6867/index.js
+[2026-11-21T23:29:21Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=11.3 files_done=28 resolved=456 errors=0 current=test/configCases/async-commons-chunk/simple/index.js
+[2026-11-21T23:30:28Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=12.4 files_done=31 resolved=535 errors=0 current=test/cases/resolving/data-uri/index.js
+[2026-11-21T23:30:58Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=12.9 files_done=35 resolved=560 errors=0 current=test/cases/parsing/issue-11353/async_generator_function.js
+[2026-11-21T23:31:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=41 resolved=583 errors=0 current=test/configCases/library/b/index.js
+[2026-11-21T23:32:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=14.2 files_done=44 resolved=612 errors=0 current=lib/DynamicEntryPlugin.js
+[2026-11-21T23:33:27Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=15.4 files_done=47 resolved=686 errors=0 current=test/cases/scope-hoisting/circular-root-export/index.js
+[2026-11-21T23:33:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=15.9 files_done=51 resolved=718 errors=0 current=test/configCases/container/2-container-full/index.js
+[2026-11-21T23:36:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=18.1 files_done=54 resolved=840 errors=0 current=test/cases/scope-hoisting/issue-5020/index.js
+[2026-11-21T23:37:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=19.2 files_done=57 resolved=884 errors=0 current=lib/prefetch/ChunkPrefetchFunctionRuntimeModule.js
+[2026-11-21T23:37:50Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=59 resolved=930 errors=0 current=lib/runtime/StartupChunkDependenciesRuntimeModule.js
+[2026-11-21T23:38:35Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=20.6 files_done=68 resolved=971 errors=0 current=test/configCases/web/prefetch-split-chunks/index.js
+[2026-11-21T23:39:34Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=21.5 files_done=71 resolved=1031 errors=0 current=test/configCases/externals/async-externals/module.mjs
+[2026-11-21T23:40:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=22.1 files_done=77 resolved=1067 errors=0 current=test/cases/cjs-tree-shaking/objects/index.js
+[2026-11-21T23:40:42Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=22.7 files_done=82 resolved=1098 errors=0 current=test/watchCases/long-term-caching/issue-8766-with-cache/0/other-chunk.js
+[2026-11-21T23:42:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=24.2 files_done=85 resolved=1161 errors=0 current=test/ModuleDependencyError.unittest.js
+[2026-11-21T23:42:53Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=24.8 files_done=89 resolved=1182 errors=0 current=test/hotCases/runtime/update-multiple-times/index.js
+[2026-11-21T23:43:56Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=25.9 files_done=94 resolved=1220 errors=0 current=lib/wasm-async/AsyncWasmChunkLoadingRuntimeModule.js
+[2026-11-21T23:44:39Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=26.6 files_done=102 resolved=1255 errors=0 current=test/statsCases/async-commons-chunk/index.js
+[2026-11-21T23:45:30Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=27.5 files_done=107 resolved=1294 errors=0 current=test/configCases/target/umd-auxiliary-comments-object/index.js
+[2026-11-21T23:47:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=29.3 files_done=114 resolved=1399 errors=0 current=test/ChangesAndRemovals.test.js
+[2026-11-21T23:47:51Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=29.8 files_done=115 resolved=1423 errors=0 current=lib/javascript/CommonJsChunkFormatPlugin.js
+[2026-11-21T23:48:27Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=30.4 files_done=117 resolved=1460 errors=0 current=test/Cli.test.js
+[2026-11-21T23:49:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=31.3 files_done=118 resolved=1494 errors=0 current=lib/runtime/GetFullHashRuntimeModule.js
+[2026-11-21T23:50:29Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=32.5 files_done=123 resolved=1571 errors=0 current=examples/wasm-complex/memory.js
+[2026-11-21T23:51:52Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=33.8 files_done=127 resolved=1644 errors=0 current=test/cases/parsing/issue-7335/index.js
+[2026-11-21T23:52:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=34.5 files_done=129 resolved=1672 errors=0 current=test/configCases/dll-plugin/3-use-dll-with-hashid/index.js
+[2026-11-21T23:53:08Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=35.1 files_done=136 resolved=1702 errors=0 current=test/cases/inner-graph/extend-class2/dep-decl.js
+[2026-11-21T23:53:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=35.7 files_done=146 resolved=1750 errors=0 current=lib/asset/AssetSourceGenerator.js
+[2026-11-21T23:55:04Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=37.0 files_done=155 resolved=1818 errors=0 current=test/cases/parsing/issue-11353/index.js
+[2026-11-21T23:55:55Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=37.9 files_done=158 resolved=1888 errors=0 current=test/configCases/context-replacement/b/index.js
+[2026-11-21T23:56:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=38.5 files_done=173 resolved=1919 errors=0 current=lib/NodeStuffPlugin.js
+[2026-11-21T23:57:18Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=39.3 files_done=175 resolved=1953 errors=0 current=test/cases/chunks/named-chunks/index.js
+[2026-11-21T23:57:52Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=39.8 files_done=176 resolved=1983 errors=0 current=lib/DllReferencePlugin.js
+[2026-11-21T23:58:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=40.5 files_done=179 resolved=2018 errors=0 current=test/configCases/web/non-js-chunks-entrypoint/webpack.config.js
+[2026-11-21T23:59:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=41.0 files_done=182 resolved=2045 errors=0 current=test/cases/cjs-tree-shaking/exports/require-default.js
+[2026-11-21T23:59:37Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=41.6 files_done=188 resolved=2070 errors=0 current=examples/common-chunk-grandchildren/pageB.js
+[2026-11-22T00:00:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=42.3 files_done=191 resolved=2102 errors=0 current=lib/async-modules/AwaitDependenciesInitFragment.js
+[2026-11-22T00:00:53Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=42.8 files_done=199 resolved=2131 errors=0 current=test/configCases/loaders/issue-3320/index.js
+[2026-11-22T00:01:23Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=43.4 files_done=213 resolved=2169 errors=0 current=lib/wasm-sync/WebAssemblyUtils.js
+[2026-11-22T00:01:55Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=43.9 files_done=217 resolved=2190 errors=0 current=benchmark/createFixtures2.js
+[2026-11-22T00:02:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=44.5 files_done=219 resolved=2225 errors=0 current=test/watchCases/side-effects/issue-7400/0/require-me.js
+[2026-11-22T00:03:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=45.2 files_done=231 resolved=2284 errors=0 current=test/configCases/resolve-merging/override/index.js
+[2026-11-22T00:03:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=45.7 files_done=234 resolved=2313 errors=0 current=lib/config/normalization.js
+[2026-11-22T00:04:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=46.7 files_done=235 resolved=2371 errors=0 current=test/configCases/parsing/issue-4857/index.js
+[2026-11-22T00:05:25Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=47.4 files_done=238 resolved=2414 errors=0 current=lib/optimize/RemoveEmptyChunksPlugin.js
+[2026-11-22T00:06:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=48.5 files_done=242 resolved=2457 errors=0 current=examples/module-federation/src-b/Component.js
+[2026-11-22T00:07:40Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=49.6 files_done=252 resolved=2509 errors=0 current=lib/javascript/EnableChunkLoadingPlugin.js
+[2026-11-22T00:08:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=50.4 files_done=255 resolved=2548 errors=0 current=test/configCases/async-commons-chunk/nested/index.js
+[2026-11-22T00:08:58Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=50.9 files_done=260 resolved=2568 errors=0 current=lib/util/fs.js
+[2026-11-22T00:09:28Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=51.4 files_done=262 resolved=2603 errors=0 current=examples/examples.js
+[2026-11-22T00:10:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=52.0 files_done=266 resolved=2626 errors=0 current=test/hotCases/runtime/import-after-download/index.js
+[2026-11-22T00:10:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=52.5 files_done=272 resolved=2653 errors=0 current=lib/runtime/StartupChunkDependenciesPlugin.js
+[2026-11-22T00:11:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=53.4 files_done=274 resolved=2712 errors=0 current=test/configCases/inner-graph/defaultClass/webpack.config.js
+[2026-11-22T00:11:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=53.9 files_done=280 resolved=2748 errors=0 current=lib/ConcatenationScope.js
+[2026-11-22T00:12:37Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=54.6 files_done=288 resolved=2807 errors=0 current=test/cases/parsing/issue-4357/test.filter.js
+[2026-11-22T00:13:15Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=55.2 files_done=292 resolved=2832 errors=0 current=lib/library/AbstractLibraryPlugin.js
+[2026-11-22T00:13:49Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=55.8 files_done=297 resolved=2859 errors=0 current=test/watchCases/cache/managedPath/3/index.js
+[2026-11-22T00:14:25Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=56.4 files_done=306 resolved=2895 errors=0 current=test/cases/side-effects/dynamic-reexports/dedupe-target-static/index.js
+[2026-11-22T00:15:01Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=57.0 files_done=311 resolved=2934 errors=0 current=benchmark/createFixtures.js
+[2026-11-22T00:15:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=57.9 files_done=312 resolved=2976 errors=0 current=lib/dependencies/ContextDependency.js
+[2026-11-22T00:16:39Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=58.6 files_done=313 resolved=3008 errors=0 current=test/statsCases/runtime-specific-used-exports/b.js
+[2026-11-22T00:17:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=59.2 files_done=319 resolved=3033 errors=0 current=test/SemVer.unittest.js
+[2026-11-22T00:17:58Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=59.9 files_done=320 resolved=3070 errors=0 current=test/configCases/dll-plugin/0-issue-10475/webpack.config.js
+[2026-11-22T00:18:39Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=60.6 files_done=323 resolved=3132 errors=0 current=test/configCases/optimization/runtime-specific-used-exports2/helper.js
+[2026-11-22T00:19:40Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=61.6 files_done=329 resolved=3180 errors=0 current=lib/optimize/MangleExportsPlugin.js
+[2026-11-22T00:21:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=63.4 files_done=333 resolved=3275 errors=0 current=lib/dependencies/HarmonyImportDependencyParserPlugin.js
+[2026-11-22T00:22:05Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=64.1 files_done=341 resolved=3303 errors=0 current=lib/library/EnableLibraryPlugin.js
+[2026-11-22T00:22:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=64.7 files_done=343 resolved=3338 errors=0 current=lib/serialization/SerializerMiddleware.js
+[2026-11-22T00:23:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=65.7 files_done=349 resolved=3377 errors=0 current=lib/container/options.js
+[2026-11-22T00:24:34Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=66.5 files_done=354 resolved=3416 errors=0 current=test/cases/cjs-tree-shaking/mjs/index.mjs
+[2026-11-22T00:25:10Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=67.1 files_done=359 resolved=3446 errors=0 current=lib/util/LazySet.js
+[2026-11-22T00:25:46Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=67.7 files_done=361 resolved=3488 errors=0 current=examples/many-pages/stuff/s4.js
+[2026-11-22T00:26:28Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=68.4 files_done=385 resolved=3532 errors=0 current=lib/dependencies/ImportWeakDependency.js
+[2026-11-22T00:27:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=69.1 files_done=391 resolved=3559 errors=0 current=test/configCases/output/charset/index.js
+[2026-11-22T00:27:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=69.6 files_done=399 resolved=3590 errors=0 current=tooling/decode-debug-hash.js
+[2026-11-22T00:28:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=70.2 files_done=406 resolved=3612 errors=0 current=test/configCases/ignore/checkContext/test.js
+[2026-11-22T00:28:49Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=70.8 files_done=417 resolved=3639 errors=0 current=lib/javascript/BasicEvaluatedExpression.js
+[2026-11-22T00:29:47Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=71.8 files_done=418 resolved=3681 errors=0 current=test/configCases/records/stable-sort/test.js
+[2026-11-22T00:30:25Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=72.4 files_done=423 resolved=3705 errors=0 current=test/HotTestCasesWeb.test.js
+[2026-11-22T00:31:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=73.1 files_done=428 resolved=3736 errors=0 current=test/cases/scope-hoisting/inside-class/index.js
+[2026-11-22T00:31:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=73.7 files_done=432 resolved=3762 errors=0 current=test/cases/inner-graph/simple/module.js
+[2026-11-22T00:32:15Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=74.2 files_done=433 resolved=3785 errors=0 current=test/configCases/split-chunks/issue-11337/index.js
+[2026-11-22T00:33:01Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=75.0 files_done=441 resolved=3822 errors=0 current=test/cases/amd/define-needs-module/index.js
+[2026-11-22T00:33:51Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=75.8 files_done=448 resolved=3855 errors=0 current=lib/web/JsonpChunkLoadingPlugin.js
+[2026-11-22T00:34:37Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=76.6 files_done=453 resolved=3891 errors=0 current=lib/AsyncDependenciesBlock.js
+[2026-11-22T00:35:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=77.4 files_done=460 resolved=3945 errors=0 current=lib/dependencies/RequireHeaderDependency.js
+[2026-11-22T00:36:40Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=78.6 files_done=475 resolved=4015 errors=0 current=test/configCases/parsing/system.import/index.js
+[2026-11-22T00:37:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=79.2 files_done=479 resolved=4042 errors=0 current=lib/DependenciesBlock.js
+[2026-11-22T00:37:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=79.7 files_done=481 resolved=4094 errors=0 current=examples/code-splitting/example.js
+[2026-11-22T00:38:15Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=80.2 files_done=483 resolved=4115 errors=0 current=test/configCases/asset-url/target-web2/index.js
+[2026-11-22T00:39:00Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=81.0 files_done=489 resolved=4156 errors=0 current=test/configCases/ecmaVersion/2020/index.js
+[2026-11-22T00:39:31Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=81.5 files_done=493 resolved=4191 errors=0 current=test/statsCases/real-content-hash/webpack.config.js
+[2026-11-22T00:39:56Z] [iter=2] CHECKPOINT TRIGGERED elapsed_min=81.9 files_completed=867 new_files_this_iter=500 mem_mb=965 MB
+[2026-11-22T00:39:56Z] [iter=2] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/d49b49ddebc6c06703e19ff6391915d2b09b0f2b.nq.gz triples=120439
+[2026-11-22T00:39:57Z] [iter=2] Checkpoint written, exiting with code 7
+[2026-11-22T00:39:57Z] [iter=2] PHASE END: enrich (checkpointed) elapsed_s=4914 elapsed_min=81.9 files_completed=867
