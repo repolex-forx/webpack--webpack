@@ -1,0 +1,26 @@
+[2026-11-22T01:50:18Z] === ENRICH ITERATION 5 START | repo=webpack/webpack sha=d49b49dd ===
+[2026-11-22T01:50:18Z] [iter=5] PHASE START: enrich repo=webpack/webpack sha=d49b49dd runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d49b49dd-enrich-iter-005.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d49b49ddebc6c06703e19ff6391915d2b09b0f2b.nq.gz
+[2026-11-22T01:51:22Z] [iter=5] Step 1: Loading AST into disk-backed store mem_mb=81 MB
+[2026-11-22T01:52:12Z] [iter=5] AST store loaded triples=4273028 load_secs=49 mem_mb=925 MB
+[2026-11-22T01:52:12Z] [iter=5] Step 2: Finding LSP targets mem_mb=925 MB
+[2026-11-22T01:52:18Z] [iter=5] LSP targets found call_sites=40898 imports=1347 extends=260 implements=0 secs=6
+[2026-11-22T01:52:24Z] [iter=5] Loaded checkpoint partial graph triples=145711
+[2026-11-22T01:52:24Z] [iter=5] Primed enclosing-def cache from persisted triples entries=2341
+[2026-11-22T01:52:29Z] [iter=5] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=925 MB
+[2026-11-22T01:52:45Z] [iter=5] Position index built positions=291310 nodes_with_types=340855 secs=16 mem_mb=1169 MB
+[2026-11-22T01:52:45Z] [iter=5] Step 3: Starting LSP resolution mem_mb=1169 MB already_completed_types=[] already_completed_files=1867
+[2026-11-22T01:52:45Z] [iter=5] Resolving target type target_type=call_site count=40898
+[2026-11-22T01:52:46Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=0 resolved=0 errors=0 current=examples/require.resolve/example.js
+[2026-11-22T01:53:17Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=38 resolved=39 errors=0 current=test/configCases/hash-length/output-filename/webpack.config.js
+[2026-11-22T01:53:49Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=74 resolved=71 errors=0 current=examples/worker/webpack.config.js
+[2026-11-22T01:54:19Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=4.0 files_done=122 resolved=105 errors=0 current=test/configCases/inner-graph/defaultFunction/webpack.config.js
+[2026-11-22T01:54:49Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=4.5 files_done=146 resolved=134 errors=0 current=test/TestCasesDevtoolEvalNamedModules.test.js
+[2026-11-22T01:55:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=180 resolved=164 errors=0 current=test/statsCases/graph-correctness-modules/module-x.js
+[2026-11-22T01:55:53Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=5.6 files_done=218 resolved=194 errors=0 current=test/hotCases/disposing/remove-chunk-with-shared/chunk1.js
+[2026-11-22T01:56:23Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=279 resolved=225 errors=0 current=test/hotCases/recover/recover-after-loader-error/loader.js
+[2026-11-22T01:56:54Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=6.6 files_done=323 resolved=261 errors=0 current=test/configCases/finish-modules/simple/index.js
+[2026-11-22T01:57:24Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=7.1 files_done=399 resolved=293 errors=0 current=test/statsCases/module-deduplication-named/async3.js
+[2026-11-22T01:57:54Z] [iter=5] CHECKPOINT TRIGGERED elapsed_min=7.6 files_completed=2367 new_files_this_iter=500 mem_mb=1174 MB
+[2026-11-22T01:57:54Z] [iter=5] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/d49b49ddebc6c06703e19ff6391915d2b09b0f2b.nq.gz triples=149839
+[2026-11-22T01:57:55Z] [iter=5] Checkpoint written, exiting with code 7
+[2026-11-22T01:57:55Z] [iter=5] PHASE END: enrich (checkpointed) elapsed_s=456 elapsed_min=7.6 files_completed=2367
